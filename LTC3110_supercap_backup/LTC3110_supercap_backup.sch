@@ -356,7 +356,7 @@ Wire Wire Line
 Wire Wire Line
 	4300 5250 4450 5250
 Wire Wire Line
-	2750 4700 2750 4650
+	2750 4650 2750 4700
 Wire Wire Line
 	3500 7200 7550 7200
 Connection ~ 3500 4200
@@ -530,10 +530,6 @@ F 3 "" H 8600 2900 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	8450 2650 8450 3150
-Wire Wire Line
-	8750 2900 8750 3150
-Wire Wire Line
 	8700 3150 8800 3150
 Connection ~ 8750 3150
 $Comp
@@ -547,7 +543,6 @@ F 3 "" H 8450 2500 50  0000 C CNN
 	1    8450 2500
 	1    0    0    -1  
 $EndComp
-Connection ~ 8450 2900
 $Comp
 L GND #PWR?
 U 1 1 57C7FDE1
@@ -586,8 +581,6 @@ F 3 "" H 9250 3050 50  0000 C CNN
 	1    9250 3050
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	8750 2900 11500 2900
 $Comp
 L C C?
 U 1 1 57C805AC
@@ -790,8 +783,88 @@ CAP_LOW
 Wire Wire Line
 	10650 4650 11300 4650
 Connection ~ 10700 2900
-Text GLabel 11500 2900 2    60   Input ~ 0
+Text GLabel 11300 2900 2    60   Input ~ 0
 V_SYS
 Text GLabel 11300 4650 2    60   Input ~ 0
 CAP_LOW
+Text GLabel 2500 4000 0    60   Input ~ 0
+V_SOLAR
+Wire Wire Line
+	2500 4000 2750 4000
+Connection ~ 2750 4000
+Text GLabel 2500 4650 0    60   Input ~ 0
+GND
+Wire Wire Line
+	2500 4650 2750 4650
+Text GLabel 11300 5200 2    60   Input ~ 0
+CAP_OK
+Connection ~ 9350 5200
+Wire Wire Line
+	11300 5200 9350 5200
+Wire Wire Line
+	8750 2900 11300 2900
+Wire Wire Line
+	8450 2650 8450 3150
+Connection ~ 8450 2900
+Wire Wire Line
+	8750 2900 8750 3150
+Text Label 5900 5250 0    60   ~ 0
+RUN
+Text Label 7350 7900 0    60   ~ 0
+MODE
+Text Label 9850 5200 0    60   ~ 0
+CAPOK
+Text Label 9250 4650 0    60   ~ 0
+DIR
+Text Label 9250 4300 0    60   ~ 0
+FB
+Text Label 6900 3150 0    60   ~ 0
+FBVCAP
+Text Label 5500 3650 0    60   ~ 0
+VCAP
+Text Label 5850 4800 0    60   ~ 0
+V_MID
+Text Label 2750 3550 0    60   ~ 0
+V_SOLAR
+$Comp
+L CONN_01X02 P?
+U 1 1 57C924FF
+P 1400 4300
+F 0 "P?" H 1400 4450 50  0000 C CNN
+F 1 "CONN_01X02" V 1500 4300 50  0000 C CNN
+F 2 "" H 1400 4300 50  0000 C CNN
+F 3 "" H 1400 4300 50  0000 C CNN
+	1    1400 4300
+	-1   0    0    -1  
+$EndComp
+Connection ~ 2750 3850
+Wire Wire Line
+	1600 4350 2550 4350
+Wire Wire Line
+	2550 4350 2550 4650
+Connection ~ 2550 4650
+Wire Wire Line
+	1600 4250 1600 4100
+Wire Wire Line
+	1600 4100 2750 4100
+Connection ~ 2750 4100
+$Comp
+L CONN_01X05 P?
+U 1 1 57C92BCD
+P 13500 3800
+F 0 "P?" H 13500 4100 50  0000 C CNN
+F 1 "CONN_01X05" V 13600 3800 50  0000 C CNN
+F 2 "" H 13500 3800 50  0000 C CNN
+F 3 "" H 13500 3800 50  0000 C CNN
+	1    13500 3800
+	1    0    0    -1  
+$EndComp
+Text GLabel 13300 3600 0    60   Input ~ 0
+V_SYS
+Text GLabel 13300 3700 0    60   Input ~ 0
+CAP_LOW
+Text GLabel 13300 3800 0    60   Input ~ 0
+CAP_OK
+Text GLabel 13300 4000 0    60   Input ~ 0
+GND
 $EndSCHEMATC
