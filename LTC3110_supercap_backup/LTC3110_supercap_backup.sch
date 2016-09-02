@@ -112,17 +112,6 @@ F 3 "" H 3500 3700 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Battery BT?
-U 1 1 57C7BCD4
-P 2750 4500
-F 0 "BT?" H 2850 4550 50  0000 L CNN
-F 1 "Solar Panel" H 2850 4450 50  0000 L CNN
-F 2 "" V 2750 4540 50  0000 C CNN
-F 3 "" V 2750 4540 50  0000 C CNN
-	1    2750 4500
-	1    0    0    -1  
-$EndComp
-$Comp
 L R R?
 U 1 1 57C7BE7F
 P 3200 4200
@@ -336,9 +325,7 @@ F 3 "" H 6500 3000 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	3050 4200 2750 4200
-Wire Wire Line
-	2750 3550 2750 4350
+	2750 4200 3050 4200
 Wire Wire Line
 	3500 4200 3350 4200
 Wire Wire Line
@@ -356,7 +343,7 @@ Wire Wire Line
 Wire Wire Line
 	4300 5250 4450 5250
 Wire Wire Line
-	2750 4650 2750 4700
+	2750 4400 2750 4700
 Wire Wire Line
 	3500 7200 7550 7200
 Connection ~ 3500 4200
@@ -731,7 +718,6 @@ F 3 "" H 9750 4800 50  0000 C CNN
 	1    9750 4800
 	1    0    0    -1  
 $EndComp
-NoConn ~ 9100 4900
 $Comp
 L R R?
 U 1 1 57C81654
@@ -755,16 +741,14 @@ Connection ~ 9750 4650
 $Comp
 L GND #PWR?
 U 1 1 57C8193E
-P 9750 5000
-F 0 "#PWR?" H 9750 4750 50  0001 C CNN
-F 1 "GND" H 9650 5050 50  0001 C CNN
-F 2 "" H 9750 5000 50  0000 C CNN
-F 3 "" H 9750 5000 50  0000 C CNN
-	1    9750 5000
+P 9750 4950
+F 0 "#PWR?" H 9750 4700 50  0001 C CNN
+F 1 "GND" H 9650 5000 50  0001 C CNN
+F 2 "" H 9750 4950 50  0000 C CNN
+F 3 "" H 9750 4950 50  0000 C CNN
+	1    9750 4950
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	9750 5000 9750 4950
 Wire Wire Line
 	10150 4650 10350 4650
 Wire Wire Line
@@ -820,7 +804,7 @@ Text Label 9250 4300 0    60   ~ 0
 FB
 Text Label 6900 3150 0    60   ~ 0
 FBVCAP
-Text Label 5500 3650 0    60   ~ 0
+Text Label 5650 3650 0    60   ~ 0
 VCAP
 Text Label 5850 4800 0    60   ~ 0
 V_MID
@@ -829,28 +813,66 @@ V_SOLAR
 $Comp
 L CONN_01X02 P?
 U 1 1 57C924FF
-P 1400 4300
-F 0 "P?" H 1400 4450 50  0000 C CNN
-F 1 "CONN_01X02" V 1500 4300 50  0000 C CNN
-F 2 "" H 1400 4300 50  0000 C CNN
-F 3 "" H 1400 4300 50  0000 C CNN
-	1    1400 4300
+P 2150 4350
+F 0 "P?" H 2150 4500 50  0000 C CNN
+F 1 "CONN_01X02" V 2250 4350 50  0000 C CNN
+F 2 "" H 2150 4350 50  0000 C CNN
+F 3 "" H 2150 4350 50  0000 C CNN
+	1    2150 4350
 	-1   0    0    -1  
 $EndComp
-Connection ~ 2750 3850
+Text GLabel 13300 3600 0    60   Input ~ 0
+V_SYS
+Text GLabel 13300 3800 0    60   Input ~ 0
+CAP_LOW
+Text GLabel 13300 3900 0    60   Input ~ 0
+CAP_OK
 Wire Wire Line
-	1600 4350 2550 4350
+	2750 3550 2750 4300
 Wire Wire Line
-	2550 4350 2550 4650
-Connection ~ 2550 4650
+	2750 4300 2350 4300
 Wire Wire Line
-	1600 4250 1600 4100
+	2350 4400 2750 4400
+Connection ~ 2750 4650
+Text GLabel 9100 4900 2    60   Input ~ 0
+!CHRG
+Text GLabel 13300 4000 0    60   Input ~ 0
+!CHRG
+Text GLabel 13300 3700 0    60   Input ~ 0
+GND
+$Comp
+L CONN_01X02 P?
+U 1 1 57C9525E
+P 4850 4150
+F 0 "P?" H 4850 4300 50  0000 C CNN
+F 1 "CONN_01X02" V 4950 4150 50  0000 C CNN
+F 2 "" H 4850 4150 50  0000 C CNN
+F 3 "" H 4850 4150 50  0000 C CNN
+	1    4850 4150
+	-1   0    0    -1  
+$EndComp
 Wire Wire Line
-	1600 4100 2750 4100
-Connection ~ 2750 4100
+	5050 4100 5250 4100
+Wire Wire Line
+	5250 4100 5250 3800
+Wire Wire Line
+	5250 3800 5500 3800
+Connection ~ 5500 3800
+Wire Wire Line
+	5050 4200 5200 4200
+Wire Wire Line
+	5200 4200 5200 4650
+Wire Wire Line
+	5200 4650 5500 4650
+Connection ~ 5500 4650
+Wire Wire Line
+	9100 5100 10850 5100
+Wire Wire Line
+	10850 5100 10850 4650
+Connection ~ 10850 4650
 $Comp
 L CONN_01X05 P?
-U 1 1 57C92BCD
+U 1 1 57C961F0
 P 13500 3800
 F 0 "P?" H 13500 4100 50  0000 C CNN
 F 1 "CONN_01X05" V 13600 3800 50  0000 C CNN
@@ -859,12 +881,6 @@ F 3 "" H 13500 3800 50  0000 C CNN
 	1    13500 3800
 	1    0    0    -1  
 $EndComp
-Text GLabel 13300 3600 0    60   Input ~ 0
-V_SYS
-Text GLabel 13300 3700 0    60   Input ~ 0
-CAP_LOW
-Text GLabel 13300 3800 0    60   Input ~ 0
-CAP_OK
-Text GLabel 13300 4000 0    60   Input ~ 0
-GND
+Text Notes 12350 9500 0    60   ~ 0
+Drawn by: Matthew Valancy\nBased on: LTC3110 datasheet page 32
 $EndSCHEMATC
