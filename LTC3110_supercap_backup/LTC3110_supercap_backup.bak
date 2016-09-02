@@ -881,4 +881,6 @@ F 3 "" H 13500 3800 50  0000 C CNN
 	1    13500 3800
 	1    0    0    -1  
 $EndComp
+Text Notes 12350 9500 0    60   ~ 0
+Drawn by: Matthew Valancy\nBased on: LTC3110 datasheet page 32
 $EndSCHEMATC
