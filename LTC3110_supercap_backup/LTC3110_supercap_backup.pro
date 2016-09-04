@@ -1,4 +1,4 @@
-update=Wed 31 Aug 2016 10:03:13 PM PDT
+update=Sat 03 Sep 2016 09:04:09 PM PDT
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,8 +23,6 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
-[general]
-version=1
 [eeschema]
 version=1
 LibDir=
@@ -71,3 +69,5 @@ LibName39=/home/pikikilla/Documents/PCB_Work/MacroFab_EDALibraries/KiCad/Schemat
 LibName40=/home/pikikilla/Documents/PCB_Work/MacroFab_EDALibraries/KiCad/Schematics/MF_Passives
 LibName41=/home/pikikilla/Documents/PCB_Work/MacroFab_EDALibraries/KiCad/Schematics/MF_Sensors
 LibName42=/home/pikikilla/Documents/PCB_Work/MacroFab_EDALibraries/KiCad/Schematics/MF_Switches
+[general]
+version=1
