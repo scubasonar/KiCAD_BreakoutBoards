@@ -1,4 +1,4 @@
-update=Sun 04 Sep 2016 09:34:04 PM PDT
+update=Mon 05 Sep 2016 08:48:24 AM PDT
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,6 +23,8 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
+[general]
+version=1
 [eeschema]
 version=1
 LibDir=
@@ -56,5 +58,4 @@ LibName26=opto
 LibName27=atmel
 LibName28=contrib
 LibName29=valves
-[general]
-version=1
+LibName30=/home/pikikilla/Documents/PCB_Work/KiCAD_Libs/Symbols/MRV_ICs_PM
