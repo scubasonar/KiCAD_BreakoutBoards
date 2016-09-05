@@ -1,4 +1,4 @@
-update=Sat 03 Sep 2016 09:04:09 PM PDT
+update=Sun 04 Sep 2016 09:34:04 PM PDT
 version=1
 last_client=kicad
 [pcbnew]
@@ -56,18 +56,5 @@ LibName26=opto
 LibName27=atmel
 LibName28=contrib
 LibName29=valves
-LibName30=/home/pikikilla/Documents/PCB_Work/KiCAD_Libs/Symbols/ICs_PM
-LibName31=/home/pikikilla/Documents/PCB_Work/MacroFab_EDALibraries/KiCad/Schematics/MF_Aesthetics
-LibName32=/home/pikikilla/Documents/PCB_Work/MacroFab_EDALibraries/KiCad/Schematics/MF_Connectors
-LibName33=/home/pikikilla/Documents/PCB_Work/MacroFab_EDALibraries/KiCad/Schematics/MF_Discrete_Semiconductor
-LibName34=/home/pikikilla/Documents/PCB_Work/MacroFab_EDALibraries/KiCad/Schematics/MF_Displays
-LibName35=/home/pikikilla/Documents/PCB_Work/MacroFab_EDALibraries/KiCad/Schematics/MF_Frequency_Control
-LibName36=/home/pikikilla/Documents/PCB_Work/MacroFab_EDALibraries/KiCad/Schematics/MF_IC_Analog
-LibName37=/home/pikikilla/Documents/PCB_Work/MacroFab_EDALibraries/KiCad/Schematics/MF_IC_Digital
-LibName38=/home/pikikilla/Documents/PCB_Work/MacroFab_EDALibraries/KiCad/Schematics/MF_IC_Power
-LibName39=/home/pikikilla/Documents/PCB_Work/MacroFab_EDALibraries/KiCad/Schematics/MF_LEDs
-LibName40=/home/pikikilla/Documents/PCB_Work/MacroFab_EDALibraries/KiCad/Schematics/MF_Passives
-LibName41=/home/pikikilla/Documents/PCB_Work/MacroFab_EDALibraries/KiCad/Schematics/MF_Sensors
-LibName42=/home/pikikilla/Documents/PCB_Work/MacroFab_EDALibraries/KiCad/Schematics/MF_Switches
 [general]
 version=1
