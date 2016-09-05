@@ -4,4 +4,4 @@ Solar powered energy harvesting board with large super capacitor based storage f
 
 ![alt tag](https://github.com/scubasonar/KiCAD_BreakoutBoards/blob/master/LTC3110_supercap_backup/Images/LTC31100_breakout_bottom.png)
 
-![alt tag](https://github.com/scubasonar/KiCAD_BreakoutBoards/LTC3110_supercap_backup/Images/LTC3110_supercap_backup.sch.svg)
+Schematic: https://github.com/scubasonar/KiCAD_BreakoutBoards/blob/master/LTC3110_supercap_backup/Images/LTC3110_supercap_backup.sch.svg
