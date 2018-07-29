@@ -1,3 +1,0 @@
-Purpose: Drive horticulture LEDs
-
-
