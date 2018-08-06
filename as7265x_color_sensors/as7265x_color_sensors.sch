@@ -1050,4 +1050,18 @@ Wire Wire Line
 	9400 3550 9650 3550
 Wire Wire Line
 	9400 3450 9650 3450
+Text Notes 7400 4600 0    157  ~ 0
+LED port\n
+Text Notes 7250 3750 0    157  ~ 0
+Comm port
+Text Notes 6500 1550 0    157  ~ 0
+Firmware
+Text Notes 2150 1050 0    157  ~ 0
+Master Color Sensor
+Text Notes 4650 4100 0    157  ~ 0
+Expansion Color Sensor
+Text Notes 4650 5900 0    157  ~ 0
+Expansion Color Sensor
+Text Notes 7250 5700 0    157  ~ 0
+FTDI Plug
 $EndSCHEMATC
