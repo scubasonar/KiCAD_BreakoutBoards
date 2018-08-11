@@ -1125,17 +1125,6 @@ Wire Wire Line
 Wire Wire Line
 	10200 5850 10850 5850
 $Comp
-L Connector:TestPoint TP7
-U 1 1 5B698AD5
-P 5800 5300
-F 0 "TP7" H 5750 5500 50  0000 L CNN
-F 1 "TestPoint" H 5858 5329 50  0001 L CNN
-F 2 "Connector_Pin:Pin_D1.0mm_L10.0mm_LooseFit" H 6000 5300 50  0001 C CNN
-F 3 "~" H 6000 5300 50  0001 C CNN
-	1    5800 5300
-	1    0    0    -1  
-$EndComp
-$Comp
 L Connector:TestPoint TP10
 U 1 1 5B6A91CF
 P 6300 1200
@@ -1320,17 +1309,6 @@ F 1 "TestPoint" H 9608 4979 50  0001 L CNN
 F 2 "Connector_Pin:Pin_D1.0mm_L10.0mm_LooseFit" H 9750 4950 50  0001 C CNN
 F 3 "~" H 9750 4950 50  0001 C CNN
 	1    9550 4950
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:TestPoint TP16
-U 1 1 5B71C6CC
-P 10400 5800
-F 0 "TP16" H 10200 6000 50  0000 L CNN
-F 1 "TestPoint" H 10458 5829 50  0001 L CNN
-F 2 "Connector_Pin:Pin_D1.0mm_L10.0mm_LooseFit" H 10600 5800 50  0001 C CNN
-F 3 "~" H 10600 5800 50  0001 C CNN
-	1    10400 5800
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
